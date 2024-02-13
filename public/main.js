@@ -1,11 +1,7 @@
 // import '../styles/main.scss'; // You have to import your styles for them to work. Comment in this line
 import { students, voldysArmy } from '../utils/data/students';
 import houses from '../utils/data/houses';
-
-const renderToDOM = (divId, content) => {
-  const selectedDiv = document.querySelector(divId);
-  selectedDiv.innerHTML = content;
-};
+import renderToDOM from '../utils/renderToDom';
 
 // ********** HTML Components  ********** //
 // the basic HMTL structure of app
