@@ -24,6 +24,6 @@ const students = [
     color: 'green',
   },
 ];
-const voldysArmy = []; // starts as an empty array
+const expelled = []; // starts as an empty array
 
-export { students, voldysArmy };
+export { students, expelled };

@@ -1,16 +1,3 @@
-const houses = [
-  {
-    house: 'gryffindor',
-  },
-  {
-    house: 'slytherin',
-  },
-  {
-    house: 'hufflepuff',
-  },
-  {
-    house: 'ravenclaw',
-  }
-];
+const houses = ['Gryffindor', 'Hufflepuff', 'Ravenclaw', 'Slytherin'];
 
 export default houses;
