@@ -1,207 +1,82 @@
 // In order for bootstrap to work, you need to import it like below
 // uncomment the import statements and refresh the DOM to see!
-// @import "~@fortawesome/fontawesome-free/css/all.min.css";
-// @import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "~bootstrap/scss/bootstrap";
 
-// body {
-//   background-color: rgb(31, 31, 31);
-//   color: rgb(194, 194, 194);
-// }
-
-// .header {
-//   padding: 20px;
-//   min-height: 200px;
-//   color: rgb(194, 194, 194);
-//   background-color: rgb(44, 44, 44);
-//   text-align: center;
-  
-// }
-
-// #students {
-//   width: 50%;
-//   border: 1px solid green;
-//   padding: 10px;
-//   margin: 2px;
-// }
-
-// #voldy {
-//   width: 50%;
-//   border: 1px solid red;
-//   padding: 10px;
-//   margin: 2px;
-// }
-
-// .card {
-//   margin: 3px;
-//   width: 45%;
-//   display: inline-block;
-// }
-
-// .card-img-overlay {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   text-align: center;
-// }
-
-// .card-img-overlay::after {
-//   content: "";
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   overflow: hidden;
-//   background-image: radial-gradient(#2B1F47, #001022);
-//   opacity: .7;
-//   z-index: 1;
-// }
-
-// .card-img-overlay > * {
-//   z-index: 100;
-// }
-
-// #filter-container {
-//   text-align: center;
-// }
-
-// .btn-group {
-//   text-align: center;
-// }
-
-// @media only screen and (max-width: 600px) {
-//   .card,
-//   #voldy,
-//   #students {
-//     width: 100% !important;
-//   }
-
-//   .container {
-//     flex-direction: column;
-//   }
-// } 
-
-.container-fluid {
-  /* background-color: tan; */
-  background-image: url("https://i.pinimg.com/736x/f5/27/63/f5276354114b001eabe2bd971f8a8a99.jpg");
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
+body {
+  background-color: rgb(31, 31, 31);
+  color: rgb(194, 194, 194);
 }
 
-#createCardContainer {
+.header {
+  padding: 20px;
+  min-height: 200px;
+  color: rgb(194, 194, 194);
+  background-color: rgb(44, 44, 44);
   text-align: center;
-  margin-top: 50px;
-  hr {
-    border: 1px solid black;
-  }
-
-  h1, p{
-    font-family: 'Aclonica', sans-serif;
-    color: whitesmoke;
-  }
-}
-
-form > div > button {
-  margin-top: 10px;
-}
-
-#filterBtnsConatiner {
-
-  button {
-    color: white;
-    font-weight: bold;
-    border: 0px;
-  }
-
-  #all {
-    background-color: black;
-  }
-  #gryffindor {
-    background-color: darkred;
-  }
-  #hufflepuff {
-    background-color: goldenrod;
-  }
-  #ravenclaw {
-    background-color: darkblue;
-  }
-  #slytherin {
-    background-color: green;
-  }
   
 }
 
-.d-flex {
-  flex-wrap: wrap;
-}
-/* @media (min-width: 300px) {
-  .wrapper {
-    max-width: fit-content;
-  }
-} */
-
-/* .wrapper {
-  width: 100vw;
-} */
-
-legend {
-  font-weight: bold;
-  margin-top: 25px;
-  height: 34px;
+#students {
+  width: 50%;
+  border: 1px solid green;
+  padding: 10px;
+  margin: 2px;
 }
 
-#containerOfCards {
-  display: flex;
-  flex-direction: row;
-
-  #cardContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: flex-start;
-    margin-top: 10px;
-    margin-right: 5px;
-    width: 50vw;
-    background-color: #E8E8E8	;
-  }
-
-  #expelled {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: flex-start;
-    margin-top: 10px;
-    margin-left: 5px;
-    width: 50vw;
-    overflow-x: auto;
-  }
+#voldy {
+  width: 50%;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 2px;
 }
 
 .card {
+  margin: 3px;
+  width: 45%;
+  display: inline-block;
+}
+
+.card-img-overlay {
   display: flex;
-  flex-direction: row;
-  width: 100vw;
-  height: 137px;
-  margin: 10px;
-  border-radius: 1px;
-  border: 0px;
-  overflow: overlay;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
-#card-color {
-  background-color: blueviolet;
-  padding: 8px 50px;
-  border-radius: 1px;
+.card-img-overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: radial-gradient(#2B1F47, #001022);
+  opacity: .7;
+  z-index: 1;
 }
 
-.voldemort-card {
-  margin: 10px;
-  border: 3px solid red;
-  border-radius: 3px;
-  height: 230px;
+.card-img-overlay > * {
+  z-index: 100;
 }
 
-#expelled-student {
-  color: red;
+#filter-container {
+  text-align: center;
 }
+
+.btn-group {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .card,
+  #voldy,
+  #students {
+    width: 100% !important;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+} 
