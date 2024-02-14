@@ -10,7 +10,7 @@ const studentsOnDom = (array) => {
           
         </div>
         <div class="card-body">
-          <h6 id="student">${item.student}</h6>
+          <h6 id="student">${item.name}</h6>
           <p class="card-text">${item.house}</p>
           <button type="submit" class="btn btn-danger" id="expel-${item.id}">Expel</button>
         </div>
