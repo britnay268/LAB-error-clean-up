@@ -2,12 +2,10 @@ import renderToDOM from '../utils/renderToDom';
 
 const htmlStructure = () => {
   const domString = `
-  <div id="createCardContainer"></div>
-  <div id="filterBtnsConatiner"></div>
-  <div id="containerOfCards">
-    <div id="cardContainer"></div>
-    <div id="expelled"></div>
-  </div>
+    <div id="header-container" class="header mb-3"></div>
+    <div id="form-container" class="container mb-3 text-center"></div>
+    <div id="filter-container" class="container mb-3"></div>
+    <div id="student-container" class="container d-flex"></div>
     `;
 
   renderToDOM('#app', domString);
